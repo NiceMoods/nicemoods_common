@@ -16,7 +16,7 @@
                 {% endblock %}
             </div>
         </div>
-
+        {% block page_resource %}{% endblock %}
     {% endbody %}
 
 {% endhtml %}
